@@ -18,17 +18,29 @@ public class OlaRidingApp {
              RatingSystem  ratingSys= new RatingSystem();
              
              rideReq.start();
+             fareCal.start();
+             
+             rideReq.join();
+             
+//             fareCal.join();
              
              driverAssign.start();
-             fareCal.start();
-                 
-             driverAssign.join();
-             liveTrac.start();
+              driverAssign.join();
+            
              
+             
+             
+           // Live Tracking or Updation 
+             liveTrac.start();
              liveTrac.join();
+             
+             
+             //Payment Process Start Here...
              paymentProcess.start();
              paymentProcess.join();
              
+             
+             //FeedBack  Process Start Here...
              ratingSys.start();
              
              
