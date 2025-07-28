@@ -29,6 +29,7 @@ public class MethodLevelSynchronization
        public static void main(String args[])
        {
     	   Table table = new Table(); // lock is created
+    	 //  Table table2 = new Table(); // lock2 is created
     	   
     	   
     	   Thread t1 = new Thread() 
@@ -37,6 +38,7 @@ public class MethodLevelSynchronization
     		   public void run() 
     		   {
     			   table.printTable(5);
+    			   
     		   }
     		   
     	   };
@@ -47,13 +49,15 @@ public class MethodLevelSynchronization
     		     @Override
     		   public void run() 
     		   {
-    			   table.printTable(9);
+    			  
+    			   table.printTable(18);
     		   }
     		   
     	   };
     	   
     	      t1.start();
     	     t2.start();
+    	     
     	   
     	  
        }
