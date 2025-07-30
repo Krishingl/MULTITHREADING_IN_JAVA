@@ -30,7 +30,7 @@ class Test implements Runnable
 
 
 
-public class WhyITCisImportant
+public class Demo2
 {
 	
   public static void main(String[] args) throws InterruptedException 
