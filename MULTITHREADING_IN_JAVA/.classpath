@@ -8,5 +8,6 @@
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="src" path="ola_car_booking_project"/>
 	<classpathentry kind="src" path="petrol_pump_simulation_project_synchronization"/>
+	<classpathentry kind="src" path="tent_booking_system_project"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
