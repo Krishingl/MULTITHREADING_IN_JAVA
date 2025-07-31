@@ -9,5 +9,6 @@
 	<classpathentry kind="src" path="ola_car_booking_project"/>
 	<classpathentry kind="src" path="petrol_pump_simulation_project_synchronization"/>
 	<classpathentry kind="src" path="tent_booking_system_project"/>
+	<classpathentry kind="src" path="Order_Delivery_System_in_ Restaurant_using_ITC_concept"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
